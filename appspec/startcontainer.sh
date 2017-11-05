@@ -5,4 +5,4 @@ docker pull 432694944652.dkr.ecr.us-west-2.amazonaws.com/terencecyleung/pywebapp
     sleep 600
     exit 1
 }
-docker run --name pywebapp -p 80:8080 --detach 432694944652.dkr.ecr.us-west-2.amazonaws.com/terencecyleung/pywebapp:lastest
+docker run --name pywebapp -p 80:8080 --detach 432694944652.dkr.ecr.us-west-2.amazonaws.com/terencecyleung/pywebapp:latest
